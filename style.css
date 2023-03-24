@@ -1,30 +1,37 @@
-*{box-sizing: border-box;}
+
 
 html,body{
-    background-color: #1a2a3e;
+
     font-family: 'Roboto Mono', monospace;
-    color: #fff;
-
-
+    display: block;
+    margin: auto;
 }
 
+
+.headers{
+    background-image: url(pfon.jpg);
+    height: 100vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+
+
 .container{
-    margin: 0px auto;
+    margin: 0px 20px;
 }
 
 .packege{
-    
-    background-color:#1a1f25 ;
-    border-radius: 50px 50px 50px 50px;
-    padding: auto;
+    padding: 0 ;
 
 }
 
 h1{
     text-align: center;
     color: #fff;
-    padding-top: 40px;
+    padding-top: 150px;
     padding-bottom: 40px;
+    margin: auto ;
 
 }
 
@@ -33,13 +40,13 @@ h1{
 }
 
 .reg-data input{
-    margin-bottom: 10px;
-    padding: 5px 70px;
-    margin-bottom: 30px ;
+    padding: 15px 100px;
+    margin-bottom: 40px ;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: black;
     color: aliceblue;
+    border-color: aqua;
 }
 
 .cover{
@@ -66,11 +73,30 @@ h1{
 
 p{
     text-align: center;
+    color: #fff;
 }
 
 p a{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.336);
+    color: #80cafe;
+}
+
+.roudmap{
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.roudmap a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 
+@media (max-width: 423px){
+    .reg-data input{
+        padding: 10px 10px;
+    }
+}
